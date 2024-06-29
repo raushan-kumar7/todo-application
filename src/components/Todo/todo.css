@@ -1,0 +1,108 @@
+.input-section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.input-section input {
+  margin-right: 20px;
+  width: 70%;
+  padding: 10px 8px;
+  border: 1px solid var(--input-btn-color);
+  border-radius: 5px;
+}
+
+.input-section input:focus {
+  outline: var(--input-btn-color);
+}
+
+.input-section button {
+  background-color: var(--input-btn-color);
+  color: #fff;
+  font-size: 15px;
+  padding: 10px 8px;
+  border-radius: 5px;
+  border: none;
+}
+
+.input-section button:hover {
+  background-color: var(--input-btn-hover-color);
+}
+
+.task-list {
+  width: 95%;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+
+.task-list-header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #64748b;
+  padding: 5px 8px;
+  z-index: 999;
+  border-radius: 5px;
+}
+
+.task-list-header h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.task-list-body {
+  overflow-y: auto;
+  max-height: calc(100% - 40px);
+  padding-top: 20px;
+  width: 100%;
+}
+
+.no-task {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--input-btn-color);
+  text-align: center;
+  margin-top: 25px;
+}
+
+.task-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.5px solid #e5e5e5;
+}
+
+.task-list-item h3, span {
+  font-size: 15px;
+  font-weight: 420;
+}
+
+.todo-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.edit-btn .MuiSvgIcon-root {
+  color: #1976d2;
+}
+
+.complete-btn .MuiSvgIcon-root {
+  color: #2e7d32;
+}
+
+.delete-btn .MuiSvgIcon-root {
+  color: #d32f2f;
+}
+
+
+::-webkit-scrollbar {
+  width: 0px;
+}

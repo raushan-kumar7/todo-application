@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #5a78ff;
+  --color-secondary: #0957ff;
+  --light-bg-color: #cbd5e1;
+  --dark-bg-color: #2d3941;
+  --input-btn-color: #ef4444;
+  --input-btn-hover-color: #b91c1c;
+  --table-header-color: #f0fdf4;
+}
+
+.light {
+  background-color: var(--light-bg-color);
+}
+
+.dark {
+  background-color: var(--dark-bg-color);
+}
