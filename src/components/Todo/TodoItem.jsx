@@ -47,7 +47,7 @@ function TodoItem({ todo }) {
           onChange={(e) => setUpdatedTask(e.target.value)}
         />
       ) : (
-        <span>{todo.task}</span>
+        <h3>{todo.task}</h3>
       )}</div>
       <h3>{todo.dueDate}</h3>
       <h3>{todo.completed ? "Completed" : "Pending"}</h3>

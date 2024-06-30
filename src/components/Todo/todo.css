@@ -106,3 +106,60 @@
 ::-webkit-scrollbar {
   width: 0px;
 }
+
+
+@media screen and (max-width: 768px) {
+  
+}
+
+@media screen and (max-width: 480px) {
+  .input-section {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .input-section input {
+    width: 100%;
+    margin: 8px;
+  }
+
+  .input-section button {
+    width: 100%;
+    margin: 5px 5px;
+  }
+
+  .task-list {
+    width: 100%;
+  }
+
+  .task-list-header h3 {
+    font-size: 15px;
+  }
+
+  .task-list-item {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .task-list-item span, h3 {
+    font-size: 12px;
+  }
+
+  .todo-action {
+    margin: 0;
+    padding: 0;
+  }
+
+  .edit-btn .MuiSvgIcon-root {
+    font-size: 15px;
+  }
+  
+  .complete-btn .MuiSvgIcon-root {
+    font-size: 15px;
+  }
+  
+  .delete-btn .MuiSvgIcon-root {
+    font-size: 15px;
+  }
+}
