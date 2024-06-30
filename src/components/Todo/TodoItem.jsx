@@ -45,6 +45,7 @@ function TodoItem({ todo }) {
           type="text"
           value={updatedTask}
           onChange={(e) => setUpdatedTask(e.target.value)}
+          className="updateInput"
         />
       ) : (
         <h3>{todo.task}</h3>

@@ -82,6 +82,19 @@
 .task-list-item h3, span {
   font-size: 15px;
   font-weight: 420;
+  margin-left: 5px;
+}
+
+.task-list-item .updateInput {
+  margin-right: 100px;
+  width: 60%;
+  padding: 8px 5px;
+  border: 0.5px solid var(--input-btn-color);
+  border-radius: 5px;
+}
+
+.task-list-item .updateInput:focus {
+  outline: var(--input-btn-color);
 }
 
 .todo-action {
